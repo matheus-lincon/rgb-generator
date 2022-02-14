@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/61001c87b9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB Generator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>RGB Generator</h1>
+      </header>
+
+      <div id="clock-area">
+        <p>
+          <i class="fa fa-eye-dropper"></i>
+          <span id="date-hour">12/01/2021 - 23:12</span>
+        </p>
+      </div>
+
+      <div id="rgb-container">
+        <div id="controllers">
+          <div id="red-controller" class="controller">
+            <input
+              type="range"
+              name="red"
+              class="red"
+              step="1"
+              min="0"
+              max="255"
+            />
+          </div>
+
+          <div id="green-controller" class="controller">
+            <input
+              type="range"
+              name="green"
+              class="green"
+              step="1"
+              min="0"
+              max="255"
+            />
+          </div>
+
+          <div id="blue-controller" class="controller">
+            <input
+              type="range"
+              name="blue"
+              class="blue"
+              step="1"
+              min="0"
+              max="255"
+            />
+          </div>
+        </div>
+
+        <div id="circle-color">
+          <div id="circle"></div>
+        </div>
+        <div id="color-output">
+          <p>RGB(0,0,0)</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Made with &hearts; by Matheus Lincon</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

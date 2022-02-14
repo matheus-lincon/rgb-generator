@@ -1,0 +1,121 @@
+:root {
+  --dark: #363940;
+  --soft-dark: #44474e;
+  --red: #ff817e;
+  --green: #3fb73d;
+  --blue: #515aab;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  color: #ffffff;
+  background-color: var(--dark);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 714px;
+}
+
+/*header*/
+header {
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+/*clock-area*/
+#clock-area {
+  background-color: var(--soft-dark);
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+
+#clock-area p {
+  display: flex;
+  align-items: center;
+
+  margin-left: 15px;
+}
+
+#clock-area p i {
+  margin-right: 10px;
+}
+
+#clock-area p #date-hour {
+  font-weight: bolder;
+}
+
+/*rgb container*/
+#rgb-container {
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-color: var(--soft-dark);
+  padding: 1rem;
+}
+
+/*controllers*/
+#controllers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#controllers .controller {
+  margin-top: 1rem;
+  height: 48px;
+  padding: 0.7rem;
+
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#controllers #red-controller {
+  background-color: var(--red);
+}
+
+#controllers #green-controller {
+  background-color: var(--green);
+}
+
+#controllers #blue-controller {
+  background-color: var(--blue);
+}
+
+/*circle color*/
+#circle-color #circle {
+  width: 226px;
+  height: 226px;
+  background-color: black;
+  margin: 20px auto;
+
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*color output*/
+#color-output {
+  text-align: center;
+  padding: 0.4rem;
+}
+
+#color-output p {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+/*footer*/
+footer {
+  padding: 4rem 2rem;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: 500;
+}
