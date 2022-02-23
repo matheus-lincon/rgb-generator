@@ -31,6 +31,8 @@
 
 ## Preview :computer:
 
+Link para acessar o projeto: [**RGB Generator**](https://matheus-lincon.github.io/rgb-generator/)
+
 <img src="./readme-files/rgb-generator.png" width="720px">
 
 ---
